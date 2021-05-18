@@ -1,0 +1,31 @@
+#include <iostream>
+
+using namespace std;
+
+
+struct Data{
+
+    int dia;
+    int mes;
+    int ano;
+
+
+
+    void mostrar(){
+    cout << dia << "/";
+    cout << mes << "/";
+    cout << ano;
+        };
+    };
+
+int main(){
+
+    Data data1;
+    cin >> data1.dia;
+    cin >> data1.mes;
+    cin >> data1.ano;
+
+    data1.mostrar();
+
+    return 0;
+}
